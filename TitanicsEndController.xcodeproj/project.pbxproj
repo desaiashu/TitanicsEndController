@@ -18,11 +18,27 @@
 		5410E41219A3B09A007BAC68 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41119A3B09A007BAC68 /* MainViewController.m */; };
 		5410E41519A3B09A007BAC68 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41419A3B09A007BAC68 /* FlipsideViewController.m */; };
 		5410E41719A3B09A007BAC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410E41619A3B09A007BAC68 /* Images.xcassets */; };
-		5410E41E19A3B09A007BAC68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410E41D19A3B09A007BAC68 /* XCTest.framework */; };
 		5410E41F19A3B09A007BAC68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410E3F819A3B09A007BAC68 /* Foundation.framework */; };
 		5410E42019A3B09A007BAC68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410E3FC19A3B09A007BAC68 /* UIKit.framework */; };
-		5410E42819A3B09A007BAC68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5410E42619A3B09A007BAC68 /* InfoPlist.strings */; };
-		5410E42A19A3B09A007BAC68 /* TitanicsEndControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E42919A3B09A007BAC68 /* TitanicsEndControllerTests.m */; };
+		5410E45719A3B0E5007BAC68 /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43619A3B0E5007BAC68 /* F53OSCBundle.m */; };
+		5410E45819A3B0E5007BAC68 /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43819A3B0E5007BAC68 /* F53OSCClient.m */; };
+		5410E45919A3B0E5007BAC68 /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43B19A3B0E5007BAC68 /* F53OSCMessage.m */; };
+		5410E45A19A3B0E5007BAC68 /* F53OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43D19A3B0E5007BAC68 /* F53OSCPacket.m */; };
+		5410E45B19A3B0E5007BAC68 /* F53OSCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43F19A3B0E5007BAC68 /* F53OSCParser.m */; };
+		5410E45C19A3B0E5007BAC68 /* F53OSCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44219A3B0E5007BAC68 /* F53OSCServer.m */; };
+		5410E45D19A3B0E5007BAC68 /* F53OSCSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44419A3B0E5007BAC68 /* F53OSCSocket.m */; };
+		5410E45E19A3B0E5007BAC68 /* F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44619A3B0E5007BAC68 /* F53OSCTimeTag.m */; };
+		5410E45F19A3B0E5007BAC68 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44819A3B0E5007BAC68 /* GCDAsyncSocket.m */; };
+		5410E46019A3B0E5007BAC68 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44A19A3B0E5007BAC68 /* GCDAsyncUdpSocket.m */; };
+		5410E46119A3B0E5007BAC68 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5410E44B19A3B0E5007BAC68 /* LICENSE.txt */; };
+		5410E46219A3B0E5007BAC68 /* MetatoneNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44D19A3B0E5007BAC68 /* MetatoneNetworkManager.m */; };
+		5410E46319A3B0E5007BAC68 /* NSData+F53OSCBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E44F19A3B0E5007BAC68 /* NSData+F53OSCBlob.m */; };
+		5410E46419A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E45119A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.m */; };
+		5410E46519A3B0E5007BAC68 /* NSNumber+F53OSCNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E45319A3B0E5007BAC68 /* NSNumber+F53OSCNumber.m */; };
+		5410E46619A3B0E5007BAC68 /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E45519A3B0E5007BAC68 /* NSString+F53OSCString.m */; };
+		5410E46719A3B0E5007BAC68 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5410E45619A3B0E5007BAC68 /* README.markdown */; };
+		5410E46A19A3B937007BAC68 /* PatternSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E46919A3B937007BAC68 /* PatternSelectViewController.m */; };
+		5410E4B419A3D566007BAC68 /* ParamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E4B319A3D566007BAC68 /* ParamTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +70,45 @@
 		5410E41419A3B09A007BAC68 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		5410E41619A3B09A007BAC68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5410E41C19A3B09A007BAC68 /* TitanicsEndControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanicsEndControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5410E41D19A3B09A007BAC68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5410E42519A3B09A007BAC68 /* TitanicsEndControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TitanicsEndControllerTests-Info.plist"; sourceTree = "<group>"; };
-		5410E42719A3B09A007BAC68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5410E42919A3B09A007BAC68 /* TitanicsEndControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanicsEndControllerTests.m; sourceTree = "<group>"; };
+		5410E43419A3B0E5007BAC68 /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSC.h; sourceTree = "<group>"; };
+		5410E43519A3B0E5007BAC68 /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCBundle.h; sourceTree = "<group>"; };
+		5410E43619A3B0E5007BAC68 /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCBundle.m; sourceTree = "<group>"; };
+		5410E43719A3B0E5007BAC68 /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCClient.h; sourceTree = "<group>"; };
+		5410E43819A3B0E5007BAC68 /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCClient.m; sourceTree = "<group>"; };
+		5410E43919A3B0E5007BAC68 /* F53OSCFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCFoundationAdditions.h; sourceTree = "<group>"; };
+		5410E43A19A3B0E5007BAC68 /* F53OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCMessage.h; sourceTree = "<group>"; };
+		5410E43B19A3B0E5007BAC68 /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCMessage.m; sourceTree = "<group>"; };
+		5410E43C19A3B0E5007BAC68 /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCPacket.h; sourceTree = "<group>"; };
+		5410E43D19A3B0E5007BAC68 /* F53OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCPacket.m; sourceTree = "<group>"; };
+		5410E43E19A3B0E5007BAC68 /* F53OSCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCParser.h; sourceTree = "<group>"; };
+		5410E43F19A3B0E5007BAC68 /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCParser.m; sourceTree = "<group>"; };
+		5410E44019A3B0E5007BAC68 /* F53OSCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCProtocols.h; sourceTree = "<group>"; };
+		5410E44119A3B0E5007BAC68 /* F53OSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCServer.h; sourceTree = "<group>"; };
+		5410E44219A3B0E5007BAC68 /* F53OSCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCServer.m; sourceTree = "<group>"; };
+		5410E44319A3B0E5007BAC68 /* F53OSCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCSocket.h; sourceTree = "<group>"; };
+		5410E44419A3B0E5007BAC68 /* F53OSCSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCSocket.m; sourceTree = "<group>"; };
+		5410E44519A3B0E5007BAC68 /* F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCTimeTag.h; sourceTree = "<group>"; };
+		5410E44619A3B0E5007BAC68 /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCTimeTag.m; sourceTree = "<group>"; };
+		5410E44719A3B0E5007BAC68 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		5410E44819A3B0E5007BAC68 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		5410E44919A3B0E5007BAC68 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		5410E44A19A3B0E5007BAC68 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		5410E44B19A3B0E5007BAC68 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5410E44C19A3B0E5007BAC68 /* MetatoneNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetatoneNetworkManager.h; sourceTree = "<group>"; };
+		5410E44D19A3B0E5007BAC68 /* MetatoneNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetatoneNetworkManager.m; sourceTree = "<group>"; };
+		5410E44E19A3B0E5007BAC68 /* NSData+F53OSCBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+F53OSCBlob.h"; sourceTree = "<group>"; };
+		5410E44F19A3B0E5007BAC68 /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+F53OSCBlob.m"; sourceTree = "<group>"; };
+		5410E45019A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+F53OSCTimeTag.h"; sourceTree = "<group>"; };
+		5410E45119A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+F53OSCTimeTag.m"; sourceTree = "<group>"; };
+		5410E45219A3B0E5007BAC68 /* NSNumber+F53OSCNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+F53OSCNumber.h"; sourceTree = "<group>"; };
+		5410E45319A3B0E5007BAC68 /* NSNumber+F53OSCNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+F53OSCNumber.m"; sourceTree = "<group>"; };
+		5410E45419A3B0E5007BAC68 /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+F53OSCString.h"; sourceTree = "<group>"; };
+		5410E45519A3B0E5007BAC68 /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+F53OSCString.m"; sourceTree = "<group>"; };
+		5410E45619A3B0E5007BAC68 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		5410E46819A3B937007BAC68 /* PatternSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternSelectViewController.h; sourceTree = "<group>"; };
+		5410E46919A3B937007BAC68 /* PatternSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternSelectViewController.m; sourceTree = "<group>"; };
+		5410E4B219A3D566007BAC68 /* ParamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamTableViewCell.h; sourceTree = "<group>"; };
+		5410E4B319A3D566007BAC68 /* ParamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410E41E19A3B09A007BAC68 /* XCTest.framework in Frameworks */,
 				5410E42019A3B09A007BAC68 /* UIKit.framework in Frameworks */,
 				5410E41F19A3B09A007BAC68 /* Foundation.framework in Frameworks */,
 			);
@@ -88,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				5410E3FE19A3B09A007BAC68 /* TitanicsEndController */,
-				5410E42319A3B09A007BAC68 /* TitanicsEndControllerTests */,
 				5410E3F719A3B09A007BAC68 /* Frameworks */,
 				5410E3F619A3B09A007BAC68 /* Products */,
 			);
@@ -109,7 +158,6 @@
 				5410E3F819A3B09A007BAC68 /* Foundation.framework */,
 				5410E3FA19A3B09A007BAC68 /* CoreGraphics.framework */,
 				5410E3FC19A3B09A007BAC68 /* UIKit.framework */,
-				5410E41D19A3B09A007BAC68 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,12 +168,17 @@
 				5410E40719A3B09A007BAC68 /* AppDelegate.h */,
 				5410E40819A3B09A007BAC68 /* AppDelegate.m */,
 				5410E40A19A3B09A007BAC68 /* Main_iPhone.storyboard */,
+				5410E46819A3B937007BAC68 /* PatternSelectViewController.h */,
+				5410E46919A3B937007BAC68 /* PatternSelectViewController.m */,
+				5410E4B219A3D566007BAC68 /* ParamTableViewCell.h */,
+				5410E4B319A3D566007BAC68 /* ParamTableViewCell.m */,
 				5410E40D19A3B09A007BAC68 /* Main_iPad.storyboard */,
 				5410E41019A3B09A007BAC68 /* MainViewController.h */,
 				5410E41119A3B09A007BAC68 /* MainViewController.m */,
 				5410E41319A3B09A007BAC68 /* FlipsideViewController.h */,
 				5410E41419A3B09A007BAC68 /* FlipsideViewController.m */,
 				5410E41619A3B09A007BAC68 /* Images.xcassets */,
+				5410E43319A3B0E5007BAC68 /* MetatoneOSC-master */,
 				5410E3FF19A3B09A007BAC68 /* Supporting Files */,
 			);
 			path = TitanicsEndController;
@@ -142,22 +195,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5410E42319A3B09A007BAC68 /* TitanicsEndControllerTests */ = {
+		5410E43319A3B0E5007BAC68 /* MetatoneOSC-master */ = {
 			isa = PBXGroup;
 			children = (
-				5410E42919A3B09A007BAC68 /* TitanicsEndControllerTests.m */,
-				5410E42419A3B09A007BAC68 /* Supporting Files */,
+				5410E43419A3B0E5007BAC68 /* F53OSC.h */,
+				5410E43519A3B0E5007BAC68 /* F53OSCBundle.h */,
+				5410E43619A3B0E5007BAC68 /* F53OSCBundle.m */,
+				5410E43719A3B0E5007BAC68 /* F53OSCClient.h */,
+				5410E43819A3B0E5007BAC68 /* F53OSCClient.m */,
+				5410E43919A3B0E5007BAC68 /* F53OSCFoundationAdditions.h */,
+				5410E43A19A3B0E5007BAC68 /* F53OSCMessage.h */,
+				5410E43B19A3B0E5007BAC68 /* F53OSCMessage.m */,
+				5410E43C19A3B0E5007BAC68 /* F53OSCPacket.h */,
+				5410E43D19A3B0E5007BAC68 /* F53OSCPacket.m */,
+				5410E43E19A3B0E5007BAC68 /* F53OSCParser.h */,
+				5410E43F19A3B0E5007BAC68 /* F53OSCParser.m */,
+				5410E44019A3B0E5007BAC68 /* F53OSCProtocols.h */,
+				5410E44119A3B0E5007BAC68 /* F53OSCServer.h */,
+				5410E44219A3B0E5007BAC68 /* F53OSCServer.m */,
+				5410E44319A3B0E5007BAC68 /* F53OSCSocket.h */,
+				5410E44419A3B0E5007BAC68 /* F53OSCSocket.m */,
+				5410E44519A3B0E5007BAC68 /* F53OSCTimeTag.h */,
+				5410E44619A3B0E5007BAC68 /* F53OSCTimeTag.m */,
+				5410E44719A3B0E5007BAC68 /* GCDAsyncSocket.h */,
+				5410E44819A3B0E5007BAC68 /* GCDAsyncSocket.m */,
+				5410E44919A3B0E5007BAC68 /* GCDAsyncUdpSocket.h */,
+				5410E44A19A3B0E5007BAC68 /* GCDAsyncUdpSocket.m */,
+				5410E44B19A3B0E5007BAC68 /* LICENSE.txt */,
+				5410E44C19A3B0E5007BAC68 /* MetatoneNetworkManager.h */,
+				5410E44D19A3B0E5007BAC68 /* MetatoneNetworkManager.m */,
+				5410E44E19A3B0E5007BAC68 /* NSData+F53OSCBlob.h */,
+				5410E44F19A3B0E5007BAC68 /* NSData+F53OSCBlob.m */,
+				5410E45019A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.h */,
+				5410E45119A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.m */,
+				5410E45219A3B0E5007BAC68 /* NSNumber+F53OSCNumber.h */,
+				5410E45319A3B0E5007BAC68 /* NSNumber+F53OSCNumber.m */,
+				5410E45419A3B0E5007BAC68 /* NSString+F53OSCString.h */,
+				5410E45519A3B0E5007BAC68 /* NSString+F53OSCString.m */,
+				5410E45619A3B0E5007BAC68 /* README.markdown */,
 			);
-			path = TitanicsEndControllerTests;
-			sourceTree = "<group>";
-		};
-		5410E42419A3B09A007BAC68 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5410E42519A3B09A007BAC68 /* TitanicsEndControllerTests-Info.plist */,
-				5410E42619A3B09A007BAC68 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = "MetatoneOSC-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +315,9 @@
 			files = (
 				5410E40F19A3B09A007BAC68 /* Main_iPad.storyboard in Resources */,
 				5410E41719A3B09A007BAC68 /* Images.xcassets in Resources */,
+				5410E46719A3B0E5007BAC68 /* README.markdown in Resources */,
 				5410E40C19A3B09A007BAC68 /* Main_iPhone.storyboard in Resources */,
+				5410E46119A3B0E5007BAC68 /* LICENSE.txt in Resources */,
 				5410E40319A3B09A007BAC68 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +326,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410E42819A3B09A007BAC68 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +336,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5410E46619A3B0E5007BAC68 /* NSString+F53OSCString.m in Sources */,
+				5410E45E19A3B0E5007BAC68 /* F53OSCTimeTag.m in Sources */,
+				5410E45F19A3B0E5007BAC68 /* GCDAsyncSocket.m in Sources */,
 				5410E40919A3B09A007BAC68 /* AppDelegate.m in Sources */,
+				5410E45C19A3B0E5007BAC68 /* F53OSCServer.m in Sources */,
+				5410E46019A3B0E5007BAC68 /* GCDAsyncUdpSocket.m in Sources */,
 				5410E41219A3B09A007BAC68 /* MainViewController.m in Sources */,
+				5410E46319A3B0E5007BAC68 /* NSData+F53OSCBlob.m in Sources */,
+				5410E45919A3B0E5007BAC68 /* F53OSCMessage.m in Sources */,
 				5410E41519A3B09A007BAC68 /* FlipsideViewController.m in Sources */,
+				5410E46519A3B0E5007BAC68 /* NSNumber+F53OSCNumber.m in Sources */,
+				5410E46219A3B0E5007BAC68 /* MetatoneNetworkManager.m in Sources */,
+				5410E45A19A3B0E5007BAC68 /* F53OSCPacket.m in Sources */,
+				5410E46A19A3B937007BAC68 /* PatternSelectViewController.m in Sources */,
+				5410E45D19A3B0E5007BAC68 /* F53OSCSocket.m in Sources */,
+				5410E45819A3B0E5007BAC68 /* F53OSCClient.m in Sources */,
+				5410E4B419A3D566007BAC68 /* ParamTableViewCell.m in Sources */,
 				5410E40519A3B09A007BAC68 /* main.m in Sources */,
+				5410E45B19A3B0E5007BAC68 /* F53OSCParser.m in Sources */,
+				5410E45719A3B0E5007BAC68 /* F53OSCBundle.m in Sources */,
+				5410E46419A3B0E5007BAC68 /* NSDate+F53OSCTimeTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410E42A19A3B09A007BAC68 /* TitanicsEndControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +400,6 @@
 				5410E40E19A3B09A007BAC68 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		5410E42619A3B09A007BAC68 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5410E42719A3B09A007BAC68 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +488,7 @@
 				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
 				INFOPLIST_FILE = "TitanicsEndController/TitanicsEndController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,6 +502,7 @@
 				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
 				INFOPLIST_FILE = "TitanicsEndController/TitanicsEndController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

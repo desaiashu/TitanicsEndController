@@ -24,6 +24,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ipLabel.text = self.serverIP;
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,9 +35,14 @@
 
 #pragma mark - Actions
 
-- (IBAction)done:(id)sender
+- (IBAction)close:(id)sender
 {
-    [self.delegate flipsideViewControllerDidFinish:self];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)set:(id)sender
+{
+    [self.delegate setIP:ip.text];
 }
 
 @end

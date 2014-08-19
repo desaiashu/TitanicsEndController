@@ -11,13 +11,16 @@
 @class FlipsideViewController;
 
 @protocol FlipsideViewControllerDelegate
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
+- (void)setIP:(NSString*)ip;
 @end
 
 @interface FlipsideViewController : UIViewController
+{
+    IBOutlet UITextField *ip;
+    IBOutlet UILabel *ipLabel;
+}
 
 @property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
-
-- (IBAction)done:(id)sender;
+@property (nonatomic, strong) NSString *serverIP;
 
 @end
