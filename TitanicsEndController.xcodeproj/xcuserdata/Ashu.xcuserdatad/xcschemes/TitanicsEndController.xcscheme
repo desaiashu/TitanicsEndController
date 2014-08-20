@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5410E41B19A3B09A007BAC68"
-               BuildableName = "TitanicsEndControllerTests.xctest"
-               BlueprintName = "TitanicsEndControllerTests"
-               ReferencedContainer = "container:TitanicsEndController.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

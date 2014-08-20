@@ -14,7 +14,6 @@
 		5410E40519A3B09A007BAC68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E40419A3B09A007BAC68 /* main.m */; };
 		5410E40919A3B09A007BAC68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E40819A3B09A007BAC68 /* AppDelegate.m */; };
 		5410E40C19A3B09A007BAC68 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5410E40A19A3B09A007BAC68 /* Main_iPhone.storyboard */; };
-		5410E40F19A3B09A007BAC68 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5410E40D19A3B09A007BAC68 /* Main_iPad.storyboard */; };
 		5410E41219A3B09A007BAC68 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41119A3B09A007BAC68 /* MainViewController.m */; };
 		5410E41519A3B09A007BAC68 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41419A3B09A007BAC68 /* FlipsideViewController.m */; };
 		5410E41719A3B09A007BAC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410E41619A3B09A007BAC68 /* Images.xcassets */; };
@@ -63,13 +62,11 @@
 		5410E40719A3B09A007BAC68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5410E40819A3B09A007BAC68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5410E40B19A3B09A007BAC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5410E40E19A3B09A007BAC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5410E41019A3B09A007BAC68 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5410E41119A3B09A007BAC68 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5410E41319A3B09A007BAC68 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		5410E41419A3B09A007BAC68 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		5410E41619A3B09A007BAC68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5410E41C19A3B09A007BAC68 /* TitanicsEndControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanicsEndControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5410E43419A3B0E5007BAC68 /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSC.h; sourceTree = "<group>"; };
 		5410E43519A3B0E5007BAC68 /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCBundle.h; sourceTree = "<group>"; };
 		5410E43619A3B0E5007BAC68 /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCBundle.m; sourceTree = "<group>"; };
@@ -147,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				5410E3F519A3B09A007BAC68 /* TitanicsEndController.app */,
-				5410E41C19A3B09A007BAC68 /* TitanicsEndControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,7 +168,6 @@
 				5410E46919A3B937007BAC68 /* PatternSelectViewController.m */,
 				5410E4B219A3D566007BAC68 /* ParamTableViewCell.h */,
 				5410E4B319A3D566007BAC68 /* ParamTableViewCell.m */,
-				5410E40D19A3B09A007BAC68 /* Main_iPad.storyboard */,
 				5410E41019A3B09A007BAC68 /* MainViewController.h */,
 				5410E41119A3B09A007BAC68 /* MainViewController.m */,
 				5410E41319A3B09A007BAC68 /* FlipsideViewController.h */,
@@ -257,24 +252,6 @@
 			productReference = 5410E3F519A3B09A007BAC68 /* TitanicsEndController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5410E41B19A3B09A007BAC68 /* TitanicsEndControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5410E43019A3B09A007BAC68 /* Build configuration list for PBXNativeTarget "TitanicsEndControllerTests" */;
-			buildPhases = (
-				5410E41819A3B09A007BAC68 /* Sources */,
-				5410E41919A3B09A007BAC68 /* Frameworks */,
-				5410E41A19A3B09A007BAC68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5410E42219A3B09A007BAC68 /* PBXTargetDependency */,
-			);
-			name = TitanicsEndControllerTests;
-			productName = TitanicsEndControllerTests;
-			productReference = 5410E41C19A3B09A007BAC68 /* TitanicsEndControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -303,7 +280,6 @@
 			projectRoot = "";
 			targets = (
 				5410E3F419A3B09A007BAC68 /* TitanicsEndController */,
-				5410E41B19A3B09A007BAC68 /* TitanicsEndControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +289,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410E40F19A3B09A007BAC68 /* Main_iPad.storyboard in Resources */,
 				5410E41719A3B09A007BAC68 /* Images.xcassets in Resources */,
 				5410E46719A3B0E5007BAC68 /* README.markdown in Resources */,
 				5410E40C19A3B09A007BAC68 /* Main_iPhone.storyboard in Resources */,
@@ -392,14 +367,6 @@
 				5410E40B19A3B09A007BAC68 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5410E40D19A3B09A007BAC68 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5410E40E19A3B09A007BAC68 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,48 +474,6 @@
 			};
 			name = Release;
 		};
-		5410E43119A3B09A007BAC68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TitanicsEndController.app/TitanicsEndController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TitanicsEndControllerTests/TitanicsEndControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		5410E43219A3B09A007BAC68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TitanicsEndController.app/TitanicsEndController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
-				INFOPLIST_FILE = "TitanicsEndControllerTests/TitanicsEndControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,14 +493,7 @@
 				5410E42F19A3B09A007BAC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5410E43019A3B09A007BAC68 /* Build configuration list for PBXNativeTarget "TitanicsEndControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5410E43119A3B09A007BAC68 /* Debug */,
-				5410E43219A3B09A007BAC68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
