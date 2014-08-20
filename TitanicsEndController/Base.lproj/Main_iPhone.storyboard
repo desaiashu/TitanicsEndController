@@ -42,6 +42,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Pattern Name">
+                                    <color key="titleColor" red="0.65098041296005249" green="0.83137261867523193" blue="0.87450987100601196" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -77,6 +78,7 @@
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="dSe-rJ-xnq">
                                                 <rect key="frame" x="282" y="11" width="22" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.65098041296005249" green="0.83137261867523193" blue="0.87450987100601196" alpha="1" colorSpace="deviceRGB"/>
                                                 <connections>
                                                     <segue destination="kIf-nA-PKG" kind="modal" identifier="ipSettingSegue" modalTransitionStyle="flipHorizontal" id="Dn9-qd-mQh"/>
                                                 </connections>
@@ -213,6 +215,7 @@
                                     <constraint firstAttribute="height" constant="30" id="O2C-m0-iEW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <color key="tintColor" red="0.65098041296005249" green="0.83137261867523193" blue="0.87450987100601196" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Set"/>
                                 <connections>
                                     <action selector="set:" destination="kIf-nA-PKG" eventType="touchUpInside" id="3A1-OG-THU"/>

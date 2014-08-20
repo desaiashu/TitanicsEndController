@@ -17,8 +17,6 @@
 		5410E41219A3B09A007BAC68 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41119A3B09A007BAC68 /* MainViewController.m */; };
 		5410E41519A3B09A007BAC68 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E41419A3B09A007BAC68 /* FlipsideViewController.m */; };
 		5410E41719A3B09A007BAC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410E41619A3B09A007BAC68 /* Images.xcassets */; };
-		5410E41F19A3B09A007BAC68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410E3F819A3B09A007BAC68 /* Foundation.framework */; };
-		5410E42019A3B09A007BAC68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5410E3FC19A3B09A007BAC68 /* UIKit.framework */; };
 		5410E45719A3B0E5007BAC68 /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43619A3B0E5007BAC68 /* F53OSCBundle.m */; };
 		5410E45819A3B0E5007BAC68 /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43819A3B0E5007BAC68 /* F53OSCClient.m */; };
 		5410E45919A3B0E5007BAC68 /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E43B19A3B0E5007BAC68 /* F53OSCMessage.m */; };
@@ -39,16 +37,6 @@
 		5410E46A19A3B937007BAC68 /* PatternSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E46919A3B937007BAC68 /* PatternSelectViewController.m */; };
 		5410E4B419A3D566007BAC68 /* ParamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410E4B319A3D566007BAC68 /* ParamTableViewCell.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5410E42119A3B09A007BAC68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5410E3ED19A3B09A007BAC68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5410E3F419A3B09A007BAC68;
-			remoteInfo = TitanicsEndController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5410E3F519A3B09A007BAC68 /* TitanicsEndController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitanicsEndController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,15 +104,6 @@
 				5410E3FB19A3B09A007BAC68 /* CoreGraphics.framework in Frameworks */,
 				5410E3FD19A3B09A007BAC68 /* UIKit.framework in Frameworks */,
 				5410E3F919A3B09A007BAC68 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5410E41919A3B09A007BAC68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5410E42019A3B09A007BAC68 /* UIKit.framework in Frameworks */,
-				5410E41F19A3B09A007BAC68 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +239,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ashutosh Desai";
-				TargetAttributes = {
-					5410E41B19A3B09A007BAC68 = {
-						TestTargetID = 5410E3F419A3B09A007BAC68;
-					};
-				};
 			};
 			buildConfigurationList = 5410E3F019A3B09A007BAC68 /* Build configuration list for PBXProject "TitanicsEndController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -294,13 +268,6 @@
 				5410E40C19A3B09A007BAC68 /* Main_iPhone.storyboard in Resources */,
 				5410E46119A3B0E5007BAC68 /* LICENSE.txt in Resources */,
 				5410E40319A3B09A007BAC68 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5410E41A19A3B09A007BAC68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,22 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5410E41819A3B09A007BAC68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5410E42219A3B09A007BAC68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5410E3F419A3B09A007BAC68 /* TitanicsEndController */;
-			targetProxy = 5410E42119A3B09A007BAC68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5410E40119A3B09A007BAC68 /* InfoPlist.strings */ = {
@@ -455,6 +407,7 @@
 				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
 				INFOPLIST_FILE = "TitanicsEndController/TitanicsEndController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,10 +418,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: makegameswithus inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TitanicsEndController/TitanicsEndController-Prefix.pch";
 				INFOPLIST_FILE = "TitanicsEndController/TitanicsEndController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "79EA87A3-E979-4DAB-95D7-7DDA7D3E98D7";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

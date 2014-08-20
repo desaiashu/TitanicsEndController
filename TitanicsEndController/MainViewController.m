@@ -17,7 +17,6 @@
 
 int listeningPort = 9001;
 int serverPort = 10001;
-//NSString *serverIP = @"10.0.1.125";
 NSString *serverIP = @"192.168.8.123";
 
 - (void)viewDidLoad
@@ -34,6 +33,12 @@ NSString *serverIP = @"192.168.8.123";
     oscServer = [[F53OSCServer alloc] init];
     [oscServer setPort:9001];
     [oscServer setDelegate:self];
+    
+    [[UISlider appearance] setMinimumTrackTintColor:[UIColor colorWithRed:166.f/255.f green:212.f/255.f blue:223.f/255.f alpha:1.f]];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:166.f/255.f green:212.f/255.f blue:223.f/255.f alpha:1.f]];
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+    [attributes setValue:[UIFont fontWithName:@"AvenirNext-Regular" size:16.f] forKey:NSFontAttributeName];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(entering)
@@ -99,7 +104,7 @@ NSString *serverIP = @"192.168.8.123";
                     range.location = i+1;
                     range.length = [arguments count] - i - 1;
                     patterns = [arguments subarrayWithRange:range];
-                    i = [arguments count];
+                    i = (int)[arguments count];
                 }
             }
         }

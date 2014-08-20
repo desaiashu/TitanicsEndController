@@ -87,7 +87,7 @@
 	//Remove highlight on selected cell
 	[tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    [self.delegate selectedPatternAtIndex:indexPath.row];
+    [self.delegate selectedPatternAtIndex:(int)indexPath.row];
 }
 
 @end
