@@ -17,7 +17,8 @@
 
 int listeningPort = 9001;
 int serverPort = 10001;
-NSString *serverIP = @"10.0.1.125";
+//NSString *serverIP = @"10.0.1.125";
+NSString *serverIP = @"192.168.8.123";
 
 - (void)viewDidLoad
 {
